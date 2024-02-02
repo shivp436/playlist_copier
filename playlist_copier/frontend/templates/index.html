@@ -1,0 +1,8 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+<div class="container">
+    <p>Start Copying Playlists</p>
+    <a href="{% url 'get_playlists:select_source' %}" class="btn btn-primary">Select Source</a>
+</div>
+{% endblock %}
